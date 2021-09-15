@@ -128,7 +128,7 @@ class PickerPresenter internal constructor(
                 pickerView.showMinimumImageMessage(pickerRepository.getMinCount())
             }
             else -> {
-                pickerView.finishActivity()
+                finish()
             }
         }
     }
